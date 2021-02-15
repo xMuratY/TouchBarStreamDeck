@@ -6,14 +6,14 @@ Who **streaming** and own **Macbook Pro** they can use this tool for control the
 # Features
 
  - Change Scene
+ - Start/Stop streaming
 
 # What's next
 
- - Start/Stop streaming
  - Start/Stop recording
  - Audio control
  - Scene items visibility control
 
-## Bugs
+## Notes
 
-> This tool currently work in progress, some bugs between asyncio & tkinter should be fixed soon.
+> PYTouchBar -> items.py line 318 and 362 should be changed with 'image = NSImage.imageNamed_(self.image_)'
